@@ -1,0 +1,11 @@
+﻿2.3.4
+Changelog:
+-Created a new point cloud renderer. (Compatible with all platforms. SRP only at the moment.)
+-Fixed FBX null reference issue.
+-Fixed FBX 3ds Max materials compatibility.
+Set the ExtractEmbeddedData asset loader default value to "false." That will prevent unauthorized file access errors on sandboxed platforms.
+-Improved FBX memory usage.
+-Added LoadTexturesAtOnce asset loader option. This option is enabled by default and decreases memory usage when loading textures.
+-Added GetCompatibleTextureFormat asset loader option.
+-Fixed StandaloneFileBrowser OSX AnyCPU assignment bug.
+-Switched from SafeStbImageSharp to StbImageSharp for performance reasons.
